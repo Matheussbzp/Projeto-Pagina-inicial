@@ -1,0 +1,56 @@
+.parent-container {
+  height: 100vh;
+}
+
+.parts {
+  height: 100%;
+}
+
+.part1 {
+  height: 100%;
+  width: 50%;
+  background: #c94b4b; /* fallback para navegadores antigos */
+  background: -webkit-linear-gradient(
+    to right,
+    #4b134f,
+    #c94b4b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4b134f,
+    #c94b4b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.part2 {
+  height: 100%;
+  width: 50%;
+  background: #0f0c29; /* fallback para navegadores antigos */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.separator-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.separator-text span {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 45px;
+  font-weight: bold;
+}
